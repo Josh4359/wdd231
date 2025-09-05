@@ -1,0 +1,239 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    /* colors */
+    --main-color: #365FB3;
+    --main-highlight: #527ACC;
+    --secondary-color: #333;
+    --secondary-highlight: #444;
+    --secondary-highlight2: #555;
+
+    --min-width: 320px;
+}
+
+html {
+    min-width: var(--min-width);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* header */
+
+header #main {
+    height: 70px;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: auto 1fr 50px;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+header #title {
+    display: grid;
+    grid-template-columns: 30px auto;
+    gap: 10px;
+    text-decoration: none;
+}
+
+header #icon {
+    width: 100%;
+}
+
+header #title span {
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header #hamburger {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: none;
+    border: none;
+}
+
+header #hamburger::before {
+  content: "\2630";
+}
+
+header #hamburger.show::before {
+  content: "\00D7";
+}
+
+/* nav */
+
+nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    min-width: var(--min-width);
+    background-color: var(--secondary-color);
+}
+
+nav.show {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav a {
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+nav a.current {
+    background-color: var(--secondary-highlight);
+}
+
+nav a:hover {
+    background-color: var(--secondary-highlight2);
+    transition: none;
+}
+
+/* main */
+
+main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main h1 {
+    margin: 0;
+}
+
+section {
+    outline: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+section h2 {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+section .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+section .buttons button {
+    height: 50px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+section .buttons button:hover {
+    background-color: var(--main-highlight);
+    transition: none;
+}
+
+section #credits {
+    margin-bottom: 20px;
+}
+
+section .courses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(100%, 500px);
+}
+
+section .course {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+section .course.finished {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: none;
+}
+
+/* footer */
+
+footer {
+    background-color: #333;
+    /* height: 50px; */
+    color: white;
+    display: grid;
+    grid-template-rows: 30px auto auto;
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+footer .socials {
+    filter: invert();
+    display: flex;
+    gap: 10px;
+}
+
+footer img {
+    height: 100%;
+    transition: all 0.1s ease;
+}
+
+footer a:hover img {
+    transform: translateY(-5px);
+    transition: none;
+}
+
+footer p {
+    margin: 0;
+}
