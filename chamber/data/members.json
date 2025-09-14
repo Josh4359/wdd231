@@ -1,0 +1,75 @@
+{
+    "members": [
+        {
+            "name": "Member A",
+            "address": "001 Member Road",
+            "phonenumber": "(555) 555-0001",
+            "website": "member-a.com",
+            "logo": "images/logo-a.png",
+            "membership": 1,
+            "tagline": "We Provide A+ Service",
+            "email": "contact@member-a.com"
+
+        },
+        {
+            "name": "Member B",
+            "address": "002 Member Road",
+            "phonenumber": "(555) 555-0002",
+            "website": "member-b.com",
+            "logo": "images/logo-b.png",
+            "membership": 2,
+            "tagline": "Won't You \"B\" Our Customer",
+            "email": "contact@member-b.com"
+        },
+        {
+            "name": "Member C",
+            "address": "003 Member Road",
+            "phonenumber": "(555) 555-0003",
+            "website": "member-c.com",
+            "logo": "images/logo-c.png",
+            "membership": 3,
+            "tagline": "Come and \"C\" Our Business",
+            "email": "contact@member-c.com"
+        },
+        {
+            "name": "Member D",
+            "address": "004 Member Road",
+            "phonenumber": "(555) 555-0004",
+            "website": "member-d.com",
+            "logo": "images/logo-d.png",
+            "membership": 1,
+            "tagline": "I hope I don't get a D for all these terrible puns",
+            "email": "contact@member-d.com"
+        },
+        {
+            "name": "Member E",
+            "address": "005 Member Road",
+            "phonenumber": "(555) 555-0005",
+            "website": "member-e.com",
+            "logo": "images/logo-e.png",
+            "membership": 2,
+            "tagline": "E",
+            "email": "contact@member-e.com"
+        },
+        {
+            "name": "Member F",
+            "address": "006 Member Road",
+            "phonenumber": "(555) 555-0006",
+            "website": "member-f.com",
+            "logo": "images/logo-f.png",
+            "membership": 3,
+            "tagline": "Maximizing \"F\"-iciency",
+            "email": "contact@member-f.com"
+        },
+        {
+            "name": "Member G",
+            "address": "007 Member Road",
+            "phonenumber": "(555) 555-0007",
+            "website": "member-g.com",
+            "logo": "images/logo-g.png",
+            "membership": 1,
+            "tagline": "\"G\", what a great business!",
+            "email": "contact@member-g.com"
+        }
+    ]
+}

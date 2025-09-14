@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Chamber Directory</title>
+    <meta name="author" content="Josh">
+    <meta name="description" content="Directory for Salt Lake City Chamber of Commerce">
+
+    <meta property="og:title" content="Chamber Directory">
+    <meta property="og:description" content="Directory for Salt Lake City Chamber of Commerce">
+    <meta property="og:url" content="https://josh4359.github.io/wdd231/chamber/directory.html">
+    <meta property="og:locale" content="en_US">
+    <!-- <meta property="og:image" content=""> -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Salt Lake City Chamber of Commerce">
+
+    <link rel="icon" href="icon.ico">
+
+    <link href="./styles/normalize.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style-med.css" rel="stylesheet">
+    <link href="styles/style-large.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <script src="scripts/members.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/icon.svg" alt="Site Icon" class="icon">
+        <span class="title">Salt Lake City Chamber of Commerce</span>
+        <br>
+        <button title="hamburger" id="hamburger"></button>
+        <nav id="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="directory.html" class="current">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div id="large">
+            <img src="images/saltlakecity.webp" alt="Salt Lake City">
+            <a href="#">Keynote Tickets</a>
+        </div>
+        <div class="sections">
+            <section>
+                <h2>Events</h2>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+                <div class="content weather">
+                    <img src="images/weather.svg" alt="Weather Icon" class="icon">
+                    <ul>
+                        <li>75° F</li>
+                        <li>Partly Cloudy</li>
+                        <li>High: 85°</li>
+                        <li>Low: 52°</li>
+                        <li>Humidity: 34%</li>
+                        <li>Sunrise: 7:30am</li>
+                        <li>Sunset: 9:59pm</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+                <div class="content forecast">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Today:</td>
+                                <td>90° F</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday:</td>
+                                <td>89° F</td>
+                            </tr>
+                            <tr>
+                                <td>Thursday:</td>
+                                <td>68° F</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                </div>
+            </section>
+        </div>
+        <div id="business-header">
+            <h2>Members</h2>
+            <button id="list-toggle"><img src="images/list.svg" alt="List Icon"></button>
+        </div>
+        <div class="business-cards grid"></div>
+        <div class="business-cards list"></div>
+    </main>
+    <footer>
+        <ul>
+            <li><b>Salt Lake City Chamber of Commerce</b></li>
+            <li>Address</li>
+            <li>Mail</li>
+            <li>info@saltlakecitycc.org</li>
+            <li>(555)-555-5555</li>
+        </ul>
+        <div class="socials">
+            <a href="https://www.youtube.com/"><img src="../images/youtube.svg" alt="Youtube Icon"></a>
+            <a href="https://twitter.com/"><img src="../images/twitter.svg" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/"><img src="../images/linkedin.svg" alt="LinkedIn Icon"></a>
+        </div>
+        <ul>
+            <li>WDD231 Class Project</li>
+            <li>Josh</li>
+            <li>&copy; <span id="currentyear"></span> Josh, United States</li>
+            <li id="lastModified"></li>
+        </ul>
+    </footer>
+</body>
+</html>
