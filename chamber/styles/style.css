@@ -3,9 +3,9 @@
 }
 
 :root {
-    --main-color: #365FB3;
-    --main-highlight: #446DC0;
-    --main-highlight2: #527ACC;
+    --main-color: hsl(230, 50%, 35%);
+    --main-highlight: hsl(230, 45%, 40%);
+    --main-highlight2: hsl(230, 40%, 45%);
     --secondary-color: #ccc;
     --secondary-highlight: #ddd;
     --secondary-highlight2: #eee;
@@ -137,7 +137,7 @@ main #large a {
     right: 10px;
     bottom: 10px;
     background-color: var(--main-color);
-    text-decoration: none;
+    text-decoration: none;;
     color: white;
     padding: 0 8px;
     border-radius: 5px;
@@ -150,7 +150,7 @@ main #large a {
 }
 
 main #large a:hover {
-    background-color: var(--main-highlight);
+    background-color: var(--main-highlight2);
     transition: none;
 }
 
@@ -177,6 +177,7 @@ section h2 {
 
 section .content {
     padding: 10px;
+    flex-grow: 1;
 }
 
 section .weather {

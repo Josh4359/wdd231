@@ -2,7 +2,7 @@ const grid_container = document.querySelector('.business-cards.grid');
 
 const list_container = document.querySelector('.business-cards.list');
 
-async function GetMembers() {
+async function getMembers() {
     const response = await fetch('data/members.json');
     const data = await response.json();
     
@@ -45,12 +45,12 @@ async function GetMembers() {
     list_container.innerHTML = content;
 }
 
-GetMembers();
+getMembers();
 
 const toggle = document.querySelector('#list-toggle');
 let grid = true;
 
-function ToggleGrid(grid) {
+function toggleGrid(grid) {
     if (grid) {
         grid_container.classList.add('show');
         list_container.classList.remove('show');
@@ -61,9 +61,10 @@ function ToggleGrid(grid) {
     }
 }
 
-ToggleGrid(grid);
+toggleGrid(grid);
 
-toggle.addEventListener('click', () => {
-    grid = !grid;
-    ToggleGrid(grid);
-});
+if (toggle)
+    toggle.addEventListener('click', () => {
+        grid = !grid;
+        toggleGrid(grid);
+    });
