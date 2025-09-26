@@ -22,6 +22,18 @@ body {
     flex-direction: column;
 }
 
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-highlight);
+    /* color: white; */
+    height: 50px;
+}
+
+button:hover {
+    background-color: var(--secondary-highlight2);
+}
+
 header {
     background-color: var(--main-color);
     display: grid;
@@ -218,12 +230,15 @@ section td:first-child {
 }
 
 #business-header button {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+    display: flex;
 }
 
 #business-header button img {
     width: 100%;
+    justify-self: center;
+    align-self: center;
 }
 
 .business-cards {
@@ -324,4 +339,181 @@ ul {
     padding: 0;
     width: fit-content;
     margin: 0;
+}
+
+/* form */
+
+form {
+    width: 100%;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+    box-sizing: border-box;
+    width: 100%;
+    /* min-width: 100%;
+    max-width: 100%; */
+    min-height: 50px;
+    border-radius: 5px;
+}
+
+form input,
+form select,
+form textarea {
+    border-left: 10px solid var(--main-color);
+    border: 1px solid black;
+}
+
+form input:required,
+form select:required,
+form textarea:required {
+    border-left: 10px solid darkred;
+}
+
+form button {
+    background-color: var(--main-color);
+    color: white;
+    /* border: none; */
+}
+
+form button:hover {
+    background-color: var(--main-highlight2);
+}
+
+/* membership cards */
+
+.membership-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.membership-card {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation-name: memb-card-anim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    color: white;
+    opacity: 0;
+}
+
+.membership-card:nth-child(2) { animation-delay: 0.2s; }
+.membership-card:nth-child(3) { animation-delay: 0.4s; }
+.membership-card:nth-child(4) { animation-delay: 0.6s; }
+
+@keyframes memb-card-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.membership-card button {
+    /* border: none; */
+    /* border-radius: 5px; */
+    width: 100px;
+    /* height: 2rem; */
+    background-color: var(--secondary-highlight);
+}
+
+.membership-card button:hover {
+    background-color: var(--secondary-highlight2);
+}
+
+.membership-card .background {
+    background-color: hsl(0, 0%, 30%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: transform 0.2s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px 0 10px 0;
+    overflow: hidden;
+}
+
+.membership-card:hover .background {
+    transform: rotateX(15deg) rotateY(15deg);
+}
+
+.membership-card .highlight {
+    height: 100%;
+    background-color: white;
+    opacity: 30%;
+    transition: all 0.2s ease;
+    position: absolute;
+    transform:skewX(45deg);
+    left: calc(100% + 50px);
+    right: -100px;
+}
+
+.membership-card:hover .highlight {
+    transition: all 0.16s ease;
+    transition-delay: 0.04s;
+    left: -100px;
+    right: calc(100% + 50px);
+}
+
+.membership-card .highlight2 {
+    transition: all 0.16s ease;
+    transition-delay: 0.04s;
+    left: calc(100% + 100px);
+    right: -200px;
+}
+
+.membership-card:hover .highlight2 {
+    transition: all 0.2s ease;
+    transition-delay: unset;
+    left: -200px;
+    right: calc(100% + 100px);
+}
+
+.membership-card.bronze .background {
+    background-color: hsl(30, 50%, 30%);
+}
+
+.membership-card.silver .background {
+    background-color: hsl(200, 20%, 30%);
+}
+
+.membership-card.gold .background {
+    background-color: hsl(40, 50%, 40%);
+}
+
+/* modal */
+
+.join dialog {
+    width: 500px;
+    margin: 10px;
+    box-sizing: border-box;
+    align-self: center;
+    justify-self: center;
+    /* display: flex; */
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.join dialog button {
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.join dialog button:hover {
+    background-color: var(--main-highlight2);
 }
