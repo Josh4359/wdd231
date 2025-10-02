@@ -1,0 +1,78 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #2d3b86;
+    --main-highlight: #384794;
+    --main-highlight2: #4554a1;
+    --secondary-color: #ccc;
+    --secondary-highlight: #ddd;
+    --secondary-highlight2: #eee;
+
+    --header-height: 70px;
+    --main-width: 700px;
+    --min-width: 320px;
+    --max-width: 1200px;
+}
+
+body {
+    background-color: var(--secondary-highlight);
+}
+
+header {
+    background-color: var(--main-color);
+}
+
+header .header {
+    max-width: var(--main-width);
+    height: var(--header-height);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 0 10px;
+}
+
+main {
+    max-width: var(--main-width);
+    margin: 10px auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.planpanel {
+    background-color: var(--secondary-highlight2);
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.planpanel img {
+    width: 100%;
+}
+
+.color {
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    outline: 1px solid black;
+    border: 1px solid white;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.color.blue {
+    background-color: var(--main-color);
+}
+
+.color.grey {
+    background-color: var(--secondary-color);
+}
+
+.color.white {
+    background-color: var(--secondary-highlight2);
+}
