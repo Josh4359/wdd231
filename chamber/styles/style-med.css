@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 38rem) {
     header {
         grid-template-rows: var(--header-height) var(--header-height);
         grid-template-columns: auto auto 1fr;
