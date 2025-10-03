@@ -1,0 +1,60 @@
+{
+  "discover": [
+    {
+      "name": "This Is The Place Heritage Park",
+      "address": "2601 Sunnyside Ave S, Salt Lake City, UT 84108",
+      "description": "A living-history park featuring pioneer monuments, train rides, a petting zoo, and a Native American village that celebrates Utah’s heritage.",
+      "image": "images/discover/heritage-park.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:This_Is_the_Place_Heritage_Park_entrance_sign,_Mar_17.jpg#/media/File:This_Is_the_Place_Heritage_Park_entrance_sign,_Mar_17.jpg"
+    },
+    {
+      "name": "Utah State Capitol",
+      "address": "350 State St, Salt Lake City, UT 84114",
+      "description": "Built in 1916, this neoclassical revival landmark offers guided tours, historic murals, and sweeping views of the city and mountains.",
+      "image": "images/discover/state-capitol.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:UtahStateCapitol-Mar2008-a.JPG#/media/File:UtahStateCapitol-Mar2008-a.JPG"
+    },
+    {
+      "name": "Temple Square",
+      "address": "50 North Temple, Salt Lake City, UT 84150",
+      "description": "The heart of Salt Lake City, this 35-acre plaza is home to the Salt Lake Temple, Tabernacle, Assembly Hall, and beautiful gardens.",
+      "image": "images/discover/temple-square.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Assembly_Hall_-_Temple_Square_Salt_Lake_City_UT_-_panoramio.jpg#/media/File:Assembly_Hall_-_Temple_Square_Salt_Lake_City_UT_-_panoramio.jpg"
+    },
+    {
+      "name": "Liberty Park",
+      "address": "600 E 900 S, Salt Lake City, UT 84105",
+      "description": "A large urban park featuring a lake, aviary, playgrounds, and picnic areas, making it a favorite spot for families and outdoor activities.",
+      "image": "images/discover/liberty-park.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Liberty_Park_in_the_winter,_Salt_Lake_City_UT,_USA_-_panoramio.jpg#/media/File:Liberty_Park_in_the_winter,_Salt_Lake_City_UT,_USA_-_panoramio.jpg"
+    },
+    {
+      "name": "Gilgal Sculpture Garden",
+      "address": "749 E 500 S, Salt Lake City, UT 84102",
+      "description": "A hidden gem with whimsical and symbolic sculptures created by Thomas Battersby Child Jr., offering a unique artistic experience.",
+      "image": "images/discover/gilgal-garden.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Gilgal_garden_1.JPG#/media/File:Gilgal_garden_1.JPG"
+    },
+    {
+      "name": "Memory Grove Park",
+      "address": "300 N Canyon Rd, Salt Lake City, UT 84103",
+      "description": "A peaceful park with monuments, fountains, and creekside walking paths, dedicated to honoring Utah’s veterans.",
+      "image": "images/discover/memory-grove.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City,_Utah_(2021)_-_076.jpg#/media/File:Salt_Lake_City,_Utah_(2021)_-_076.jpg"
+    },
+    {
+      "name": "Pioneer Memorial Museum",
+      "address": "300 N Main St, Salt Lake City, UT 84103",
+      "description": "A museum showcasing artifacts, manuscripts, and memorabilia from Utah’s earliest settlers, housed in a grand Grecian-style mansion.",
+      "image": "images/discover/pioneer-museum.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City,_Utah_(2021)_-_311.jpg#/media/File:Salt_Lake_City,_Utah_(2021)_-_311.jpg"
+    },
+    {
+      "name": "Washington Square Park",
+      "address": "451 S State St, Salt Lake City, UT 84111",
+      "description": "A historic downtown park surrounding the Salt Lake City and County Building, often hosting festivals, markets, and community events.",
+      "image": "images/discover/washington-square.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Washington_Square_Park_(Salt_Lake_City).jpg#/media/File:Washington_Square_Park_(Salt_Lake_City).jpg"
+    }
+  ]
+}

@@ -63,4 +63,26 @@
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
+
+    /* discover */
+
+    .discover .item {
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+        "image name"
+        "image address"
+        "image description"
+        "image ."
+        "image button";
+        justify-items: unset;
+    }
+
+    .discover .item img {
+        filter: grayscale(100%);
+        transition: filter 0.2s ease;
+    }
+    
+    .discover .item:hover img {
+        filter: unset;
+    }
 }

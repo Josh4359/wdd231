@@ -34,6 +34,15 @@ button:hover {
     background-color: var(--secondary-highlight2);
 }
 
+button.color {
+    background-color: var(--main-color);
+    color: white;
+}
+
+button.color:hover {
+    background-color: var(--main-highlight2);
+}
+
 header {
     background-color: var(--main-color);
     display: grid;
@@ -372,16 +381,6 @@ form textarea:required {
     border-left: 10px solid darkred;
 }
 
-form button {
-    background-color: var(--main-color);
-    color: white;
-    /* border: none; */
-}
-
-form button:hover {
-    background-color: var(--main-highlight2);
-}
-
 /* membership cards */
 
 .membership-cards {
@@ -426,12 +425,12 @@ form button:hover {
     /* border-radius: 5px; */
     width: 100px;
     /* height: 2rem; */
-    background-color: var(--secondary-highlight);
+    /* background-color: var(--secondary-highlight); */
 }
 
-.membership-card button:hover {
+/* .membership-card button:hover {
     background-color: var(--secondary-highlight2);
-}
+} */
 
 .membership-card .background {
     background-color: hsl(0, 0%, 30%);
@@ -516,4 +515,68 @@ form button:hover {
 
 .join dialog button:hover {
     background-color: var(--main-highlight2);
+}
+
+/* discover */
+
+.discover > * {
+    margin: 0;
+}
+
+.discover .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.discover .item {
+    background-color: white;
+    /* width: fit-content; */
+    /* height: 200px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+    "name"
+    "image"
+    "address"
+    "description"
+    "button";
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.discover .item * {
+    margin: 0;
+    width: 100%;
+}
+
+.discover .item h2 {
+    grid-area: name;
+}
+
+.discover .item figure {
+    grid-area: image;
+    width: fit-content;
+}
+
+.discover .item img {
+    max-width: 300px;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.discover .item address {
+    grid-area: address;
+}
+
+.discover .item p {
+    grid-area: description;
+}
+
+.discover .item button {
+    grid-area: button;
 }
