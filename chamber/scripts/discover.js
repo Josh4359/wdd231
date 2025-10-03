@@ -13,7 +13,7 @@ async function getDiscovery() {
 <div class="item">
     <h2>${m.name}</h2>
     <figure>
-        <img src="${m.image}">
+        <img src="${m.image}" alt="${m.name}" loading="lazy">
         <figcaption><i><a href="${m.source}">image source</a></i></figcaption>
     </figure>
     <address>${m.address}</address>
