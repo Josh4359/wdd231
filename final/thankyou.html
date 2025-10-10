@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plan² | Thank You!</title>
+    <meta name="author" content="Josh">
+    <meta name="description" content="This is the place to get thanked by Plan².">
+    
+    <meta property="og:title" content="Plan² Thank You">
+    <meta property="og:description" content="Get website help from Plan²">
+    <meta property="og:url" content="https://josh4359.github.io/wdd231/final/index.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://josh4359.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Plan²">
+    
+    <link rel="icon" href="icon.ico">
+
+    <link href="../styles/normalize.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style-large.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/thankyou.js" defer></script>
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <h1>Plan²</h1>
+                <button id="hamburger"></button>
+            </div>
+        </div>
+        <nav id="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                        <div class="underline"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About
+                        <div class="underline"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="sign-up.html" class="current">
+                        Sign Up
+                        <div class="underline"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Thank You!</h2>
+
+        <div class="planpanel">
+            <h3>Results</h3>
+            <div id="results"></div>
+            <p>Thank you for signing up. We may or may not get back to you within 3.4*10^38 business days.</p>
+            <div class="buttons">
+                <a href="sign-up.html">Return to Form</a>
+                <a href="index.html">Return to Home</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><b>Plan²</b></li>
+            <li>Address</li>
+            <li>Mail</li>
+            <li>info@plan2.org</li>
+            <li>(555)-555-5555</li>
+        </ul>
+        <div class="socials">
+            <a href="https://www.youtube.com/"><img src="../images/youtube.svg" alt="Youtube Icon"></a>
+            <a href="https://twitter.com/"><img src="../images/twitter.svg" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/"><img src="../images/linkedin.svg" alt="LinkedIn Icon"></a>
+        </div>
+        <ul>
+            <li>WDD231 Class Project</li>
+            <li>Josh</li>
+            <li>&copy; <span id="currentyear"></span> Josh, United States</li>
+            <li id="lastModified"></li>
+        </ul>
+    </footer>
+</body>
+</html>

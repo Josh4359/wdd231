@@ -1,0 +1,86 @@
+@media screen and (min-width: 38rem) {
+    header #hamburger {
+        display: none;
+    }
+
+    header nav {
+        all: unset;
+    }
+
+    header nav ul {
+        /* list-style: none; */
+        margin: auto;
+        /* padding: 0; */
+        display: flex;
+        justify-content: space-around;
+        /* width: 100%; */
+        max-width: var(--main-width);
+        /* height: 50px; */
+        /* align-items: center; */
+    }
+
+    header nav a {
+        background-color: unset;
+    }
+
+    header nav a .underline {
+        display: unset;
+        width: 0;
+        height: 2px;
+        margin: 0 auto;
+        background-color: black;
+        transition: width 0.1s ease;
+    }
+
+    header nav a.current {
+        background-color: unset;
+    }
+
+    header nav a:hover {
+        background-color: unset;
+    }
+
+    header nav a:hover .underline {
+        width: 100%;
+    }
+
+    /* lds presidents */
+
+    dialog.lds-presidents.modal:modal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "image name"
+        "image list"
+        "image ."
+        "image button";
+    }
+
+    dialog.lds-presidents.modal figure {
+        grid-area: image;
+    }
+
+    dialog.lds-presidents.modal h2 {
+        grid-area: name;
+    }
+
+    dialog.lds-presidents.modal ul {
+        grid-area: list;
+    }
+
+    dialog.lds-presidents.modal button {
+        grid-area: button;
+    }
+
+    /* footer */
+
+    footer {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+    }
+
+    footer ul:last-child {
+        justify-self: flex-end;
+    }
+}

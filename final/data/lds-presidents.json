@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Joseph Smith",
+    "id": "joseph_smith",
+    "birthdate": "1805-12-23",
+    "deathdate": "1844-06-27",
+    "years_as_president": 14,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/9eb4f6de045d486665bb8aeb0e4e3bb4cdb822ab/full/250%2C/0/default"
+  },
+  {
+    "name": "Brigham Young",
+    "id": "brigham_young",
+    "birthdate": "1801-06-01",
+    "deathdate": "1877-08-29",
+    "years_as_president": 30,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/a8fb36a2c0e2df20d9dd7f65c80e63b31bac8f94/full/250%2C/0/default"
+  },
+  {
+    "name": "John Taylor",
+    "id": "john_taylor",
+    "birthdate": "1808-11-01",
+    "deathdate": "1887-07-25",
+    "years_as_president": 10,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/60fb328666a8227375d4644f23b21e6f91b45297/full/250%2C/0/default"
+  },
+  {
+    "name": "Wilford Woodruff",
+    "id": "wilford_woodruff",
+    "birthdate": "1807-03-01",
+    "deathdate": "1898-09-02",
+    "years_as_president": 9,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/39a5f874a7c823523fc149a04c5a4cb01ab0b42e/full/250%2C/0/default"
+  },
+  {
+    "name": "Lorenzo Snow",
+    "id": "lorenzo_snow",
+    "birthdate": "1814-04-03",
+    "deathdate": "1901-10-10",
+    "years_as_president": 3,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/cb940d396b82fe7e2591f8e8b4216703a94557f7/full/250%2C/0/default"
+  },
+  {
+    "name": "Joseph F. Smith",
+    "id": "joseph_f_smith",
+    "birthdate": "1838-11-13",
+    "deathdate": "1918-11-19",
+    "years_as_president": 17,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/9701f70857efeb5312f6085e737d15d4336b3c3f/full/250%2C/0/default"
+  },
+  {
+    "name": "Heber J. Grant",
+    "id": "heber_j_grant",
+    "birthdate": "1856-11-22",
+    "deathdate": "1945-05-14",
+    "years_as_president": 27,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/acfd585c5534c7b7f99797441f997573f38693ac/full/250%2C/0/default"
+  },
+  {
+    "name": "George Albert Smith",
+    "id": "george_albert_smith",
+    "birthdate": "1870-04-04",
+    "deathdate": "1951-04-04",
+    "years_as_president": 6,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/0eee4f78d65f3675548a85a271d2ca4fd5ba289b/full/250%2C/0/default"
+  },
+  {
+    "name": "David O. McKay",
+    "id": "david_o_mckay",
+    "birthdate": "1873-09-08",
+    "deathdate": "1970-01-18",
+    "years_as_president": 19,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/815b824ddb2bea9e2b11ad17c33340d0480be2ce/full/250%2C/0/default"
+  },
+  {
+    "name": "Joseph Fielding Smith",
+    "id": "joseph_fielding_smith",
+    "birthdate": "1876-07-19",
+    "deathdate": "1972-07-02",
+    "years_as_president": 2,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/9701f70857efeb5312f6085e737d15d4336b3c3f/full/250%2C/0/default"
+  },
+  {
+    "name": "Harold B. Lee",
+    "id": "harold_b_lee",
+    "birthdate": "1899-03-28",
+    "deathdate": "1973-12-26",
+    "years_as_president": 1,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/dfa5beb7316f8b9d566721e05c8f91cbc1918229/full/250%2C/0/default"
+  },
+  {
+    "name": "Spencer W. Kimball",
+    "id": "spencer_w_kimball",
+    "birthdate": "1895-03-28",
+    "deathdate": "1985-11-05",
+    "years_as_president": 12,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/cc949e8157d44deacbd347028a44d5f1abd5b58f/full/250%2C/0/default"
+  },
+  {
+    "name": "Ezra Taft Benson",
+    "id": "ezra_taft_benson",
+    "birthdate": "1899-08-04",
+    "deathdate": "1994-05-30",
+    "years_as_president": 8,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/10e33a37cd14ef5116271610e1f64973afd15442/full/250%2C/0/default"
+  },
+  {
+    "name": "Howard W. Hunter",
+    "id": "howard_w_hunter",
+    "birthdate": "1907-11-14",
+    "deathdate": "1995-03-03",
+    "years_as_president": 1,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/e91db3971dce6f6a3eaf2be19499d7200720c8d6/full/250%2C/0/default"
+  },
+  {
+    "name": "Gordon B. Hinckley",
+    "id": "gordon_b_hinckley",
+    "birthdate": "1910-06-23",
+    "deathdate": "2008-01-27",
+    "years_as_president": 13,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/782631e062d8988f869402aad8fa78779c8569c2/full/250%2C/0/default"
+  },
+  {
+    "name": "Thomas S. Monson",
+    "id": "thomas_s_monson",
+    "birthdate": "1927-08-21",
+    "deathdate": "2018-01-02",
+    "years_as_president": 10,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/7baa22e5a5f32ca253243f297ee74d6c31ef3486/full/250%2C/0/default"
+  },
+  {
+    "name": "Russell M. Nelson",
+    "id": "russell_nelson",
+    "birthdate": "1924-09-09",
+    "deathdate": "2025-09-27",
+    "years_as_president": 7,
+    "image_url": "https://www.churchofjesuschrist.org/imgs/1b7ebce1330a10266203ae87e67d6ec86f4cd7f0/full/250%2C/0/default"
+  }
+]
